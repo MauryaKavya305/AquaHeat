@@ -1,12 +1,7 @@
-
+import Login from "./pages/login";
 
 function App() {
-  
-  return (
-    <div className="bg-black-500 h-screen flex items-center justify-center">
-      Hello World
-    </div>
-  )
+  return <Login />;
 }
 
-export default App
+export default App;
